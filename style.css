@@ -1,1 +1,63 @@
-/* */
+h1 {
+    background-color: plum;
+    padding: 20px;
+    text-align: center;
+    font: 'helvetica', sans-serif;
+}
+/* Setting h1 styling */
+
+body {
+    font-family: 'helvetica', sans-serif;
+    font-size: 25px;
+    background-color: lightgrey
+}
+/* Setting body styling */
+
+.logo-box {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: #ffffff;
+    /* Default background color */
+        background-color: lightsteelblue;
+}
+#box-1 {
+    background-color: lightsteelblue;
+}
+/* Setting Section Box Styling to blue and in center*/
+
+.item {
+    display: inline-block;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+}
+/* Setting projects to display side by side */
+
+footer {
+    background-color: plum;
+    padding: 20px;
+    text-align: center;
+    font: 'helvetica', sans-serif;
+}
+
+.contact-box {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+#box-3 {
+    background-color: lightsteelblue;
+}
+/* Setting contact Box Styling to blue and in center*/
+
+/* Setting footer styling */
+/* End of CSS Styling */
