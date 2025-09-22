@@ -17,40 +17,56 @@ body {
     width: 80%;
     padding: 20px;
     margin: 20px auto;
-    border: 2px dashed #333;
+    border: 2px solid #333;
     text-align: center;
-    background-color: #ffffff;
-    /* Default background color */
-        background-color: lightsteelblue;
+    background-color: lightsteelblue;
 }
 #box-1 {
     background-color: lightsteelblue;
 }
 /* Setting Section Box Styling to blue and in center*/
 
+.profile-box {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+#box-profile {
+    background-color: lightgoldenrodyellow;
+}
+/* Setting Profile pic Box Styling to purple and in center*/
+
 .item {
     display: inline-block;
     padding: 10px;
-    background-color: lightgoldenrodyellow;
+    background-color: lightseagreen;
     margin: 5px;
+    border: 2px solid #333;
     width: 50%;
     display: table-cell;
     text-align: center;
 }
 /* Setting projects to display side by side */
 
-footer {
-    background-color: plum;
+.choose-box {
+    display: block;
+    width: 80%;
     padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #333;
     text-align: center;
-    font: 'helvetica', sans-serif;
+    background-color: lightseagreen;
 }
+/* Setting Choose Box Styling to green and in center*/
 
 .contact-box {
     width: 80%;
     padding: 20px;
     margin: 20px auto;
-    border: 2px dashed #333;
+    border: 2px solid #333;
     text-align: center;
     background-color: lightsteelblue;
 }
@@ -58,6 +74,23 @@ footer {
     background-color: lightsteelblue;
 }
 /* Setting contact Box Styling to blue and in center*/
+
+.item2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+}
+/* Setting button to display side by side */
+
+footer {
+    background-color: plum;
+    padding: 20px;
+    text-align: center;
+    font: 'helvetica', sans-serif;
+}
 
 /* Setting footer styling */
 /* End of CSS Styling */

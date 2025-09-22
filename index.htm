@@ -13,30 +13,33 @@
 <!-- Set Header -->
 
 <body>
-    <h1> Welcome to My First HTML Portfolio </h1>
+    <h1> Tri Nguyen HTML Portfolio </h1>
     <p> This is my first attempt at creating a simple porfolio page, as part of my journey with Step8Up Level 4
     Bootcamp, accredited by BCS (the British Computer Society). In this assignment I work on a web project, and 
     created this webpage for demonstration. 
     </p>
     <section class="logo-box" id="box-1">
         <a href="https://www.bcs.org/"> 
-            <img src="bcslogo.png" alt="BCS Logo" width="90" height="100" >
+            <img src="bcslogo.png" alt="BCS Logo" width="90" height="100" > </a>
         <a href="https://www.bcs.org/deliver-and-teach-qualifications/accreditation/tech10/"> 
-            <img src="tech10cert.jpg" alt="Tech 10 Certification" width="115" height="115">
+            <img src="tech10cert.jpg" alt="Tech 10 Certification" width="115" height="115"> </a>
         <a href="https://www.step8up.co.uk/course/full-stack-web-dev-level-4-skills-bootcamp/"> 
-            <img src="step8up.png" alt="Step 8 Up Logo" width="150" height="100">
+            <img src="step8up.png" alt="Step 8 Up Logo" width="150" height="100"> </a>
         <a href="https://www.gov.uk/government/organisations/ofsted"> 
-            <img src="oftedlogo.png" alt="Ofsted Logo" width="150" height="100">
+            <img src="oftedlogo.png" alt="Ofsted Logo" width="150" height="100"> </a>
         
     </section>
 <!-- Set Intro Section - Welcome Block -->
 
+    <section class="choose-box" id="box-choose">
+        <h2> Find out More: </h2>
     <ul> 
         <li><a href="#about"> About Me </a> </li>
         <li><a href="#projects"> Projects </a> </li>
         <li><a href="#contact"> Contact </a> </li>
         <li><a href="#callback"> Request Call Back </a> </li>
     </ul>
+    </section>
 <!-- Set Up List and Allow for Link following through later on-->
 
     <h2 id="about"> About Me: </h2>
@@ -45,7 +48,9 @@
         specifically as a Web Developer and Coder.
     </p>
 <!-- Set About Me Block -->
+ <section class="profile-box" id="box-profile">
     <img src="profilepic.jpg" alt="Profile Pic" width="300" height="300">
+ </section>
 <!-- Set Profile Pic -->
 
     <section class="Cert-box" id="box-2">
@@ -83,10 +88,19 @@
 
     <section class="contact-box" id="box-3">
         <h4> Contact Form </h4>
+        <form > <label> Title: </label> <input tpe="title"> </form>
         <form > <label> Name: </label> <input tpe="name"> </form>
         <form > <label> Email: </label> <input tpe="email"> </form>
         <form > <label> Tel: </label> <input tpe="tel"> </form>
-        <button> <lable> Submit</lable></button>
+
+        <section2 class="button-box" id="box-button">
+            <div class="item2">
+                <button> <label> Submit</label></button>
+            </div>
+            <div class="item2">
+                <button> <label> Clear</label></button>
+            </div>
+        </section2>
     </section>
 <!-- Set Up Contact Form and set within response box -->
 
